@@ -1,0 +1,73 @@
+.Navbar1
+{
+    width: 100%;
+    height: max-content;
+    border-bottom: 2px solid #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 150px 15px 150px;
+}
+.Navbar1-Container1
+{
+    width: max-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar1-Mail
+{   
+    width: max-content;
+    height: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    /* border-right: 2px solid #f3f3f3; */
+    border-right: 2px solid rgba(197, 194, 194, 0.651);
+}
+.Navbar1-Address
+{   
+    width: max-content;
+    height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.Navbar1 p
+{
+    color: #ababab;
+    font-size: 18px;
+    font-weight: 600;
+}
+.Navbar1-Container2
+{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Navbar1-social
+{   
+    border-radius: 50%;
+}
+
+@media (max-width : 1200px) 
+{
+    .Navbar1
+    {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+}
+@media (max-width : 800px) 
+{
+    .Navbar1
+    {
+        display: none;
+    }
+}

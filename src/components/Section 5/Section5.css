@@ -1,0 +1,38 @@
+.Section5
+{
+    width: 100%;
+    padding: 100px 20px;
+}
+.Section5-Title
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.Section5-Title h4
+{
+    font-weight: 800;
+    color: #ee6c75;
+    border-left: 5px solid #ee6c75;
+    padding-left: 5px;
+    text-align: center;
+}
+.Section5-Hero
+{
+    font-weight: 1000;
+    font-size: 40px;
+    text-align: center;
+}
+.Section5-Hero span
+{
+    display: block;
+}
+.Section5-Offers
+{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 20px;
+}
